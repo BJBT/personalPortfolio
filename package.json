@@ -1,0 +1,46 @@
+{
+    "title": "Simple Portfolio",
+    "version": "5.1.2",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch",
+        "scss": "node-sass --watch scss -o css"
+    },
+    "description": "",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "license": "",
+    "author": "",
+    "contributors": [
+        " "
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.9.0",
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1",
+        "jquery.easing": "^1.4.1",
+        "magnific-popup": "^1.1.0",
+        "node-sass": "^4.12.0"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.7",
+        "del": "4.1.1",
+        "gulp-autoprefixer": "6.1.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-header": "2.0.7",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
+    }
+}
